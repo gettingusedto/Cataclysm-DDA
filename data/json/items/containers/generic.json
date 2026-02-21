@@ -185,7 +185,7 @@
     ],
     "symbol": "#",
     "color": "dark_gray",
-    "flags": [ "SINGLE_USE", "NO_SALVAGE", "NO_RELOAD" ]
+    "flags": [ "SINGLE_USE", "NO_SALVAGE", "NO_RELOAD", "ALLOWS_REMOTE_USE" ]
   },
   {
     "id": "box_paper_small",
