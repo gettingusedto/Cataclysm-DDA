@@ -62,7 +62,7 @@ jobs:
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           repository: ${{ matrix.tileset_repo }}
-          ref: master
+          ref: fungal-terrain-branch
           path: build-tilesets
           sparse-checkout: ${{matrix.tileset_src_checkout}}
           fetch-depth: 1
