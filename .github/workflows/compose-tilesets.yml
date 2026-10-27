@@ -40,6 +40,11 @@ jobs:
             tileset_dir: gfx/MShockXotto+
             compose_args: --use-all
             tileset_src_checkout: "gfx"
+          - name: IsoMSX+
+            tileset_repo: gettingusedto/CDDA-Tilesets
+            tileset_dir: gfx/IsoMSX+
+            compose_args: --use-all
+            tileset_src_checkout: "gfx"
 
     name: Compose tileset
     runs-on: ubuntu-latest
